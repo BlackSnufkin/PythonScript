@@ -25,7 +25,7 @@ ______  _                _  ______             _              _
 \_|    |_||_| |_| \__,_||_| \_|   |_|   \___/ | | \___| \___| \__|
                                              _/ |                 
                                             |__/              
-    Made By Tzachi:
+    
     """)
 target = input('Enter Target IP: ')
 ports = range(1,102)
