@@ -35,7 +35,7 @@ def anon_browser(url):
 
 
 def bruteforce(payload):
-    url = "https://www.hackampus.com/signin"
+    url = input("Enter url og sign in page: )
     s = anon_browser(url)
 
     if "logout" in s:
