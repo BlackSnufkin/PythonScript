@@ -6,17 +6,7 @@ import ftplib
 import paramiko
 import time
 
-print('''
-┈┈╱╲┈┈┈╱╲┈┈╭━╮┈
-┈╱╱╲╲__╱╱╲╲┈╰╮┃┈
-┈▏┏┳╮┈╭┳┓▕┈┈┃┃┈
-┈▏╰┻┛▼┗┻╯▕┈┈┃┃┈
-┈╲┈┈╰┻╯┈┈╱▔▔┈┃┈
-┈┈╰━┳━━━╯┈┈┈┈┃┈
-┈┈┈┈┃┏┓┣━━┳┳┓┃┈
-┈┈┈┈┗┛┗┛┈┈┗┛┗┛┈
-Lil Cat by Tzachi
-''')
+
 
 ip = input('Enter Target IP address: ')
 ports = range(1,100)
